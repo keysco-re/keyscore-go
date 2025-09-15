@@ -415,7 +415,7 @@ For support and questions:
 - **Documentation**: [https://docs.keysco.re](https://docs.keysco.re)
 - **API Reference**: [https://api.keysco.re/docs](https://api.keysco.re/docs)
 - **Issues**: [GitHub Issues](https://github.com/keysco-re/keyscore-go/issues)
-- **Email**: support@keysco.re
+- **Email**: esson@riseup.net
 
 ## Contributing
 
