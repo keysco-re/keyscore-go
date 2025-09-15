@@ -34,13 +34,13 @@ func WithHTTPClient(hc *http.Client) Option {
 func NewClient(opts ...Option) *Client {
 	c := &Client{
 		baseURL:    "https://api.keysco.re",
-		httpClient: &http.Client{Timeout: 30 * time.Second},
+		httpClient: &http.Client{Timeout: 60 * time.Second},
 	}
 	for _, o := range opts {
 		o(c)
 	}
 	if c.httpClient == nil {
-		c.httpClient = &http.Client{Timeout: 30 * time.Second}
+		c.httpClient = &http.Client{Timeout: 60 * time.Second}
 	}
 	return c
 }
